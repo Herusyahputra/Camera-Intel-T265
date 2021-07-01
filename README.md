@@ -30,15 +30,31 @@ The app should open a window divided into 4 viewports: top (top left viewport), 
      $ cmake .. -DFORCE_RSUSB_BACKEND=true -DCMAKE_BUILD_TYPE=release
      ```
      ```
-     $ make -j$(nproc)
+     $ make -j(nproc)
      ```
      ```
      $ sudo make install
      ```
      
 3. **How to used**
-
-
+  - Follow these steps to run
+  - Open your terminal by clicking Ctrl + Alt + T
+     ```
+     $ git clone https://github.com/Herusyahputra/Camera-Intel-T265.git
+     ```
+     ```
+     $ cd Camera-Intel-T265
+     ```
+     ```
+     $ viewer-realsense
+     ```
+  - Open new terminal by clicking Ctrl + Alt + T
+     ```
+     $ cd trajectory
+     ```
+     ```
+     $ rs-trajectory.cpp
+     ```
 
 5. **Refereness**
 
