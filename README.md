@@ -37,3 +37,10 @@ The app should open a window divided into 4 viewports: top (top left viewport), 
      ```
      
 3. **How to used**
+
+
+
+5. **Refereness**
+
+  - Install [realsense2](https://roboticslab-uc3m.github.io/installation-guides/install-realsense2.html) 
+  - Intel [Librealsense](https://github.com/IntelRealSense/librealsense)
