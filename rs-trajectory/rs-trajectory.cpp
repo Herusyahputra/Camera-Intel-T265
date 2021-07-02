@@ -499,7 +499,7 @@ int main(int argc, char * argv[]) try
 		// **calc_transform is a method which collect pose data from (line 493) and matrix from (line 496)**
 		tracker.calc_transform(pose_data, r);
 		//myfile.open("/home/shivani/Documents/librealsense/build/examples/trajectory/matrix.txt" , std::ofstream::out | std::ofstream::app);
-		myfile.open("/home/aji/Documents/MY/SLAM/librealsense/build/examples/trajectory/pose.txt" , std::ofstream::out | std::ofstream::app);
+		myfile.open("/home/heru-05/Desktop/Documents Project/Shivani-VO/trajectory/pose.txt" , std::ofstream::out | std::ofstream::app);
 		// **Below loop checks whether the above file exist if then proceed otherwise jump to line 524**
 		if (myfile.is_open())
 		{
