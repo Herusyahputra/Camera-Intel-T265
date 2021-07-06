@@ -55,7 +55,9 @@ The app should open a window divided into 4 viewports: top (top left viewport), 
      ```
      $ rs-trajectory.cpp
      ```
+     ![sensor](https://user-images.githubusercontent.com/60929939/124535660-13bc0480-de49-11eb-9152-7204af64de9c.png)
 
+      
 5. **Refereness**
 
   - Install [realsense2](https://roboticslab-uc3m.github.io/installation-guides/install-realsense2.html) 
