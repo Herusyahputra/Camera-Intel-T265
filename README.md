@@ -60,7 +60,9 @@ The app should open a window divided into 4 viewports: top (top left viewport), 
      ![sensor](https://user-images.githubusercontent.com/60929939/124535660-13bc0480-de49-11eb-9152-7204af64de9c.png)
 
       
-5. **Refereness**
+5. Result Pose Intel T265
+   ![POSE INTEL T265](https://user-images.githubusercontent.com/60929939/142584244-85cf53a9-4beb-4e1e-8a92-4fd4140d57d1.png)
+7. **Refereness**
 
   - Install [realsense2](https://roboticslab-uc3m.github.io/installation-guides/install-realsense2.html) 
   - Intel [Librealsense](https://github.com/IntelRealSense/librealsense)
