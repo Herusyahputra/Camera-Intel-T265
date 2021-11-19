@@ -46,7 +46,7 @@ The app should open a window divided into 4 viewports: top (top left viewport), 
      $ cd Camera-Intel-T265
      ```
      ```
-     $ viewer-realsense
+     $ realsense-viewer
      ```
      ![dof](https://user-images.githubusercontent.com/60929939/124540030-36eab200-de51-11eb-9b07-d8e504c02d26.png)
 
