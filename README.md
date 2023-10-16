@@ -16,23 +16,17 @@ The app should open a window divided into 4 viewports: top (top left viewport), 
   - The following steps have been tested on Ubuntu 20.04 (Focal),
      ```
      $ sudo apt install libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev libusb-1.0-0-dev
-     ```
-     ```
+     
      $ mkdir -p ~/repos && cd ~/repos
-     ```
-     ```
+ 
      $ git clone https://github.com/IntelRealSense/librealsense
-     ```
-     ```
+
      $ mkdir -p librealsense/build && cd librealsense/build
-     ```
-     ```
+
      $ cmake .. -DFORCE_RSUSB_BACKEND=true -DCMAKE_BUILD_TYPE=release
-     ```
-     ```
+
      $ make -j(nproc)
-     ```
-     ```
+
      $ sudo make install
      ```
      
@@ -41,11 +35,9 @@ The app should open a window divided into 4 viewports: top (top left viewport), 
   - Open your terminal by clicking Ctrl + Alt + T
      ```
      $ git clone https://github.com/Herusyahputra/Camera-Intel-T265.git
-     ```
-     ```
+ 
      $ cd Camera-Intel-T265
-     ```
-     ```
+
      $ realsense-viewer
      ```
      ![dof](https://user-images.githubusercontent.com/60929939/124540030-36eab200-de51-11eb-9b07-d8e504c02d26.png)
