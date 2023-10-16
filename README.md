@@ -6,10 +6,10 @@ Date: April 26, 2021
 1. **Introduction**
 The app should open a window divided into 4 viewports: top (top left viewport), front (bottom left viewport), side (bottom right viewport), and 3D (top right viewport). In each field of view, a 3D model of the camera and the corresponding 2D trajectory are displayed. In 3D view, you should be able to interact with the camera using your mouse, to rotate, zoom, and pan. Draw the device movement trajectory based on pose data. by using a device that supports intel camera pose stream (T265).
       ```
-      1. Sequence of Images
-      2. Ground Truth Data (pose)
-      3. Calibration file (calib.txt)
-      4. Timestamp (times.txt)
+      - Sequence of Images
+      - Ground Truth Data (pose)
+      - Calibration file (calib.txt)
+      - Timestamp (times.txt)
       ``` 
 
 2. **How to install realsense2**
